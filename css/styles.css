@@ -605,7 +605,7 @@ border: none;
 }
 
 .form-field{
-    margin-bottom: 8px;
+    margin-bottom:24px;
 }
 .form-label{
     font-size: 12px;
@@ -695,7 +695,7 @@ align-items: center;
 .modal-check:checked + .modal-check-text span {
     background-color:#404BBF;
     border:none;
-    fill:#f4f4fd;
+    fill:#4D5AE5;;
 }
 .modal-terms{
     color:#4d5ae5; 
