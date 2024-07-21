@@ -640,7 +640,10 @@ border: none;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.form-icon:hover,
+.form-field-check{
+margin-bottom: 24px;
+}
+
 .form-icon:focus{
  fill:#4D5AE5;
 }
@@ -695,7 +698,7 @@ align-items: center;
 .modal-check:checked + .modal-check-text span {
     background-color:#404BBF;
     border:none;
-    fill:#4D5AE5;;
+    fill:#F4F4FD;
 }
 .modal-terms{
     color:#4d5ae5; 
