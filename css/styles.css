@@ -453,7 +453,9 @@ color: #f4f4fd;
     display: flex;
     gap:16px;
 }
-
+.footer-form{
+    margin-left:auto;
+}
 .footer-icon-item {
     width: 40px;
     height: 40px;
@@ -567,7 +569,6 @@ border: none;
 }
 .backdrop:not(.is-open) .modal{
     transform: translate(-50%,-50%) scale(1.5);
-
 }
 .modal-close{
     position: absolute;
@@ -670,9 +671,7 @@ input:focus + .form-icon{
 .form-input-textarea:focus{
     border-color: #4D5AE5; 
 }
-.modal-check{
-    margin-bottom: 8px; 
-}
+
 .modal-check-text{
 font-size: 12px;
 line-height: 1.17;
